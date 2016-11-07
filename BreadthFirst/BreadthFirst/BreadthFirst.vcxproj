@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.c" />
+    <ClCompile Include="..\NQueensChecker.c" />
+    <ClCompile Include="..\SolutionListOperations.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\NQueensChecker.h" />
+    <ClInclude Include="..\NQueensDefinitions.h" />
+    <ClInclude Include="..\SolutionListOperations.h" />
+    <ClInclude Include="..\StructureDefinitions.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F0E8BCB3-814D-4B54-A935-3EE592439F6B}</ProjectGuid>
     <RootNamespace>BreadthFirst</RootNamespace>
@@ -110,17 +121,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="F:\UWE\Intro to AI\Mastermind week16 my own solution\Mastermind week16 my own solution\main.c" />
-    <ClCompile Include="F:\UWE\Intro to AI\Mastermind week16 my own solution\Mastermind week16 my own solution\NQueensChecker.c" />
-    <ClCompile Include="F:\UWE\Intro to AI\Mastermind week16 my own solution\Mastermind week16 my own solution\SolutionListOperations.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="F:\UWE\Intro to AI\Mastermind week16 my own solution\Mastermind week16 my own solution\NQueensChecker.h" />
-    <ClInclude Include="F:\UWE\Intro to AI\Mastermind week16 my own solution\Mastermind week16 my own solution\NQueensDefinitions.h" />
-    <ClInclude Include="F:\UWE\Intro to AI\Mastermind week16 my own solution\Mastermind week16 my own solution\SolutionListOperations.h" />
-    <ClInclude Include="F:\UWE\Intro to AI\Mastermind week16 my own solution\Mastermind week16 my own solution\StructureDefinitions.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
